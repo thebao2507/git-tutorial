@@ -1,4 +1,17 @@
 button {
     background-color: aqua;
     color: azure;
+    border: 1px solid rgb(71, 66, 66);
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.5;
+}
+
+.component {
+    text-align: center;
+    padding-top: 100px;
 }
